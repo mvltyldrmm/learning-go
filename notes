@@ -1,0 +1,21 @@
+GO MOD INIT (code base name)
+
+Bu komut sonrasında go.mod adlı dosya oluşur. Burada vereceğimiz module ismi ile projenin kök dizini belirtmiş oluruz ve
+diğer dizinlere ulaşabiliriz.
+
+GO MOD TIDY
+
+Mod dosyası ile proje içeriği arasında ayarlama yapar.
+
+GO BUILD MAIN.GO
+
+Dosyası build alarak hataları gösterir
+
+GO GET github.com/aws/aws-lambda-go/lambda
+
+Import edilen eksik paketleri yükler. Bu kodu çalıştırma sonrasında go.sum adlı dosya oluşur ve import edilenler görülebilir.
+
+GO RUN main.go
+
+Go dosyası çalıştırılır.
+
