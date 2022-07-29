@@ -1,0 +1,6 @@
+go test .
+||
+go test -v
+
+go test -v -coverprofile coverage.out  //DETAIL TEST
+go tool cover -html=coverage.out -o coverage.html  //DETAIL HTML
